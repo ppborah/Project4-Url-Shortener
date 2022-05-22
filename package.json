@@ -1,0 +1,29 @@
+{
+  "name": "project4-url-shortener",
+  "version": "1.0.0",
+  "description": "Scalable URL Shortener Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ppborah/Project4-Url-Shortener.git"
+  },
+  "author": "Prasurjya Pran Borah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ppborah/Project4-Url-Shortener/issues"
+  },
+  "homepage": "https://github.com/ppborah/Project4-Url-Shortener#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1",
+    "is-url": "^1.2.4",
+    "mongoose": "^6.3.4",
+    "nanoid": "^3.3.4",
+    "nodemon": "^2.0.16",
+    "redis": "^3.1.2"
+  }
+}
